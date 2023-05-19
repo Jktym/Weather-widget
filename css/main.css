@@ -101,7 +101,7 @@ color: #FFF8F8;
 .info-temperature
 {
     position: relative;
-    left: 90px;
+    left: 150px;
     top: 100px;
 
     font-weight: 400;
@@ -131,5 +131,12 @@ color: #FFF8F8;
     font-size: 35px;
     line-height: 52px;
     color: #000000;
+}
 
+.info-error
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 50;
+    color: #000000;
 }
