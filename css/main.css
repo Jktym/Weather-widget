@@ -53,7 +53,7 @@ color: #FFF8F8;
 .button_show
 {
     position: relative;
-    left: 20px;
+    right: 10px;
     font-family: 'Oswald';
     line-height: 44px;
     color: #FFFFFF;
