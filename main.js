@@ -39,14 +39,11 @@ form.onsubmit = function(e)
             header.insertAdjacentHTML('afterend', html);
         }
         else
-        {
+        {//Если ошибки нет
             console.log(data.location.name);
             console.log(data.current.condition.text);
             console.log(data.current.temp_c);
-    
-    
 
-    
             const html = `<div class="info">
                             <h2 class="info-city">${city}</h2>
                             <div class="info-weather">
@@ -58,7 +55,5 @@ form.onsubmit = function(e)
     
             header.insertAdjacentHTML('afterend', html);
         }
-        //Отображение полученных данных
-
     })
 }
